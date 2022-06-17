@@ -9,7 +9,7 @@ import com.chaquo.python.PyObject;
 import com.chaquo.python.Python;
 import com.chaquo.python.android.AndroidPlatform;
 import python.qz.databinding.ActivityMainBinding;
-import com.itsaky.androidide.logsender.LogSender;
+
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     // Remove this line if you don't want AndroidIDE to show this app's logs
-    LogSender.startLogging(this);
+
     super.onCreate(savedInstanceState);
     // Inflate and get instance of binding
     binding = ActivityMainBinding.inflate(getLayoutInflater());
